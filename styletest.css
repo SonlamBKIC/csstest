@@ -1,0 +1,145 @@
+body {
+    backg
+}
+
+header {
+    display: block;
+    clear: left;
+    text-align: center;
+    font-family: Marion;
+    color: darkred;
+    font-size: 400%;
+    margin-top: 50px;
+}
+
+.bordertest {
+    font-family: Marion;
+    font-size: 2vw;
+    font-weight: normal;
+    font-style: italic;
+    direction: rtl;
+    border-style: double solid dashed dotted;
+    border-width: 2px 4px 6px 8px;
+    border-color: green;
+    border-radius: 20px;
+    margin: inherit;
+    outline: 10px ridge yellow;
+    outline-offset: 10px;
+}
+
+.sectiontest {
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    border: 1px solid red;
+    height: 500px;
+    margin: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-image: linear-gradient(45deg, rgba(30, 227, 69, 0), rgba(30, 227, 69, 1));
+    box-shadow: 10px 10px 15px;
+}
+
+.sectiontest2 {
+    width: 80%;
+    bottom: 0;
+    border: 15px solid transparent;
+    border-image: url("border.png") 25% stretch;
+    margin: 0 auto;
+    max-height: 300px;
+    overflow-x: scroll;
+}
+
+table, th, td {
+    border-bottom: 1px solid black;
+    font-family: Tahoma serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 25px auto;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+th {
+    height: 50px;
+    vertical-align: center;
+    background-color: green;
+    color: white;
+    font-size: 150%;
+}
+
+tr {
+    text-align: left;
+}
+
+tr:hover {
+    color: darkseagreen;
+    background-color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+td {
+    padding: 10px;
+}
+
+td::first-letter {
+    font-size: 150%;
+    color: green;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    padding: 15px 20px;
+    border-right: 1px solid #ffffff;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a:hover {
+    background-color: red;
+}
+
+.navbar li a:active {
+    color: black;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #aaaaaa;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
